@@ -1,0 +1,38 @@
+/* Basic styling for header, main, sections, and footer */
+header, main, section, footer {
+    padding: 20px;
+}
+
+/* Styling for navigation menu */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* Style links in the navigation menu */
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* Style the inquiry button */
+.inquiry-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive design example for smaller screens */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    /* Add more responsive styles as needed */
+}
